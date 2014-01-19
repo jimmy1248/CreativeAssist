@@ -1,0 +1,23 @@
+name: CreativeAssist
+main: net.jimmy1248.creativeassist.CreativeAssist
+version: 1.7.2
+depend: [GriefPrevention]
+
+commands:
+   cawand:
+     usage: /cawand
+     description: Give the player the Creative Assist wand
+     permission: creativeassist.wand 
+     permission-message: You don't have <permission>
+   caset:
+     usage: /caset <material>
+     description: Sets block within an area to specified material
+     permission: creativeassist.set 
+     permission-message: You don't have <permission>
+permissions:
+  creativeassist.wand:
+     default: true
+  creativeassist.set:
+     default: true
+
+   
